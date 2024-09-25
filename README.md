@@ -1,7 +1,3 @@
-Here's a detailed `README.md` template you can use for your GitHub repository "Ecommerce-using-HTML-CSS":
-
----
-
 # Ecommerce Website using HTML & CSS
 
 This repository contains the source code for a basic **Ecommerce Website** created using only **HTML** and **CSS**. The website showcases product listings, product details, shopping cart functionality (UI only), and a clean, responsive layout.
@@ -39,11 +35,13 @@ This project is a simple ecommerce website layout built purely with HTML and CSS
 To run this project locally:
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/RushdaMansuri/Ecommerce-using-HTML-CSS.git
    ```
 
 2. **Navigate to the project directory**:
+
    ```bash
    cd Ecommerce-using-HTML-CSS
    ```
@@ -95,5 +93,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 ### Notes:
+
 - Replace the placeholder text in the "Screenshots" section with actual image paths (you may need to take screenshots of your site and place them in a `screenshots/` folder).
 - You can add or remove sections depending on the features you want to highlight.
