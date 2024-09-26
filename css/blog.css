@@ -103,11 +103,11 @@ p {
 }
 #blog-hero h1 {
   font-size: 50px;
-  color:indigo;
+  color:rgb(129 71 71);
 }
 #blog-hero p {
   font-size: 30px;
-  color: indigo;
+  color: rgb(129 71 71);
   margin-top: 10px;
 }
 
