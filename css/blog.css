@@ -95,19 +95,19 @@ p {
 
 /* Blog Hero Section */
 #blog-hero {
-  background: url(images/blog-hero.jpg) no-repeat center center/cover;
+  background: url(../images/blog-hero.png) no-repeat center center/cover;
   color: #fff;
-  padding: 100px 50px;
+  padding: 200px 100px;
   text-align: center;
   background-size: cover;
 }
 #blog-hero h1 {
   font-size: 50px;
-  color: #fff;
+  color:black;
 }
 #blog-hero p {
-  font-size: 18px;
-  color: #f8f9fa;
+  font-size: 30px;
+  color: black;
   margin-top: 10px;
 }
 
