@@ -1,31 +1,44 @@
 /* footer section styles */
+#footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 75px;
+  background-color: #ececec;
+}
 
-#footer{
-    display: flex;
-    align-items:flex-start;
-    justify-content: space-between;
-    padding: 75px;
-    background-color: #ececec;
-  }
-  #footer div{
-  }
-  #footer p, #footer a{
-    color: rgb(109, 109, 109);
-    text-decoration: none;
-  }
-  #footer a:hover{
-    color:#088178;
-  }
-  #footer .about a{
-    display: block;
-    padding:8px 0;
-  }
-  #footer .myaccount a{
-    display: block;
-    padding:8px 0;
-  }
-  #footer .download img{
-    border: 1px solid #08817969;
-    border-radius: 7px;
-  }
-  
+#footer p,
+#footer a {
+  color: rgb(109, 109, 109);
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: #088178;
+}
+
+#footer .about a,
+#footer .myaccount a {
+  display: block;
+  padding: 8px 0;
+}
+
+#footer .download img {
+  border: 1px solid #08817969;
+  border-radius: 7px;
+}
+
+/* Styling for social media icons */
+#footer .socials a {
+  font-size: 24px;
+  color: rgb(109, 109, 109);
+  margin-right: 15px;
+}
+
+#footer .socials a:hover {
+  color: #088178;
+}
+#logo {
+  width: 120px; /* Adjust the width to make the logo smaller */
+  height: auto; /* Maintain aspect ratio */
+}
