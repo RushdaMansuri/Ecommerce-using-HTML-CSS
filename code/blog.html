@@ -12,32 +12,9 @@
     ></script>
   </head>
   <body>
-    <!--header section-->
-    <header>
-      <div id="header">
-        <div class="header-logo">
-          <a href="index.html"><img src="../images/logo.png" alt="logo" /></a>
-        </div>
-        <div class="header-list">
-          <nav class="header-list-nav">
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="shop.html">Shop</a></li>
-              <li><a class="active" href="blog.html">Blog</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-          </nav>
-          <div class="header-list-icon">
-            <a href="#"><i class="fa fa-bag-shopping"></i></a>
-          </div>
-        </div>
-      </div>
-    </header>
-
     <!-- Main section -->
+    <div id="include-header"></div>
     <main>
-      <!-- Blog Hero Section -->
       <section id="blog-hero">
         <h1>Discover Our Latest Blogs</h1>
         <p>
@@ -45,8 +22,6 @@
           experts.
         </p>
       </section>
-
-      <!-- Blog Section -->
       <section id="blogs" class="section-p1">
         <div class="blog-container">
           <article class="blog-card">
@@ -81,8 +56,6 @@
           </article>
         </div>
       </section>
-
-      <!-- Newsletter Section -->
       <section id="newsletter">
         <div class="newsletter-text">
           <h3>Stay in the Know</h3>
@@ -98,7 +71,26 @@
         </div>
       </section>
     </main>
-
+    <div id="include-footer"></div>
     <script src="/script.js"></script>
   </body>
+  
+  <script>
+    // JavaScript to load the header.html file into the div
+    fetch('/code/header.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('include-header').innerHTML = data;
+      })
+      .catch(error => console.error('Error loading header:', error));
+    
+    fetch('/code/footer.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('include-footer').innerHTML = data;
+      })
+      .catch(error => console.error('Error loading header:', error));
+  </script>
+</html>
+
 </html>

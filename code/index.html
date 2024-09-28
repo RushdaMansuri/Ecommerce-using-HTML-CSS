@@ -337,6 +337,7 @@
       </section>
 
     </main>
+    <div id="include-footer"></div>
     <script src="../script.js"></script>
   </body>
   <script>
@@ -345,6 +346,13 @@
       .then(response => response.text())
       .then(data => {
         document.getElementById('include-header').innerHTML = data;
+      })
+      .catch(error => console.error('Error loading header:', error));
+    
+    fetch('/code/footer.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('include-footer').innerHTML = data;
       })
       .catch(error => console.error('Error loading header:', error));
   </script>
