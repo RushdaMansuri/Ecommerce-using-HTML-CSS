@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 64px;
+  color: #222;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Section Heading Styles */
+.section-heading {
+  font-size: 30px;
+  font-weight: 800;
+  color: #088178;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #f8f8f8;
+  padding: 50px 80px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.contact-info {
+  flex: 1;
+  max-width: 500px;
+  padding-top:5em;
+}
+
+.contact-info p {
+  font-size: 16px;
+  color: #465b52;
+  margin-bottom: 20px;
+}
+
+.contact-info h3 {
+  font-size: 20px;
+  color: #222;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.contact-form {
+  flex: 1;
+  padding-top:5em;
+  max-width: 500px;
+}
+
+.contact-form label {
+  font-size: 18px;
+  color: #222;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #cce7d0;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #465b52;
+}
+
+.contact-form button {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #fff;
+  background-color: #088178;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: background-color 0.2s;
+}
+
+.contact-form button:hover {
+  background-color: #066d5c;
+}

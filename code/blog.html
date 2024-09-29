@@ -74,23 +74,21 @@
     <div id="include-footer"></div>
     <script src="/script.js"></script>
   </body>
-  
+
   <script>
     // JavaScript to load the header.html file into the div
-    fetch('/code/header.html')
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById('include-header').innerHTML = data;
+    fetch("/code/header.html")
+      .then((response) => response.text())
+      .then((data) => {
+        document.getElementById("include-header").innerHTML = data;
       })
-      .catch(error => console.error('Error loading header:', error));
-    
-    fetch('/code/footer.html')
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById('include-footer').innerHTML = data;
-      })
-      .catch(error => console.error('Error loading header:', error));
-  </script>
-</html>
+      .catch((error) => console.error("Error loading header:", error));
 
+    fetch("/code/footer.html")
+      .then((response) => response.text())
+      .then((data) => {
+        document.getElementById("include-footer").innerHTML = data;
+      })
+      .catch((error) => console.error("Error loading header:", error));
+  </script>
 </html>
