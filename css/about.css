@@ -10,10 +10,14 @@
   
   .about-container {
     display: flex;
-    gap: 30px;
+    gap: 4em;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+  }
+  
+  .about-image {
+    padding-top: 5em;
   }
   
   .about-image img {
