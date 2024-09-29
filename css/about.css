@@ -59,3 +59,8 @@
     background-color: #066d5c;
   }
   
+  .right-align {
+    display: block; /* Ensures the span behaves like a block element */
+    text-align: right; /* Aligns the text to the right */
+  }
+  
