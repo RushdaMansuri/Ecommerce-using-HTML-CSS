@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce website</title>
+    <link rel="stylesheet" href="../css/about.css" />
+    <script
+      src="https://kit.fontawesome.com/0e53af926d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--main section-->
+    <div id="include-header"></div>
+
+    <div id="include-footer"></div>
+    <script src="../script.js"></script>
+  </body>
+  <script>
+    // JavaScript to load the header.html file into the div
+    fetch("/code/header.html")
+      .then((response) => response.text())
+      .then((data) => {
+        document.getElementById("include-header").innerHTML = data;
+      })
+      .catch((error) => console.error("Error loading header:", error));
+
+    fetch("/code/footer.html")
+      .then((response) => response.text())
+      .then((data) => {
+        document.getElementById("include-footer").innerHTML = data;
+      })
+      .catch((error) => console.error("Error loading header:", error));
+  </script>
+</html>
