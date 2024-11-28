@@ -11,7 +11,6 @@ This repository contains the source code for a basic **Ecommerce Website** creat
 - [Usage](#usage)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -85,10 +84,6 @@ Contributions are welcome! If you would like to contribute, please follow these 
 3. Make your changes and commit (`git commit -m 'Add feature'`)
 4. Push to the branch (`git push origin feature-name`)
 5. Create a new pull request
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
 
